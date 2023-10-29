@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\r\n\ This\ is\ the\ parent\ class\ of\ DebitCard\ and\ CreditCard.\ The\ class\ has\ a\ display\ method\ to\ display\ the\ client\ detials\ if\ client\ name\ is\ entered.\r\n\ If\ the\ client\ name\ has\ not\ been\ set,\ the\ method\ will\ print\ a\ message\ to\ enter\ the\ client's\ name.\r\n\r\n\ @author\ 22067829\ Aman\ Babu\ Shrestha\r\n\ @version\ 2023-01-20\r\n
+comment1.params=
+comment1.target=int\ getcardID()
+comment2.params=
+comment2.target=java.lang.String\ getClientName()
+comment3.params=
+comment3.target=int\ getBalanceAmount()
+comment4.params=
+comment4.target=java.lang.String\ getBankAccount()
+comment5.params=
+comment5.target=java.lang.String\ getIssuerBank()
+comment6.params=clientName
+comment6.target=void\ setClientName(java.lang.String)
+comment7.params=balanceAmount
+comment7.target=void\ setBalanceAmount(int)
+comment8.params=balanceAmount\ cardID\ bankAccount\ issuerBank
+comment8.target=BankCard(int,\ int,\ java.lang.String,\ java.lang.String)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=\ method\ prints\ a\ message\ to\ enter\ client\ name\ if\ the\ name\ is\ not\ set.\r\nElse\ prints\ the\ detail\ of\ client
+numComments=10

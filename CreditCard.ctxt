@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CreditCard
+comment0.text=\r\n\ \ It\ is\ a\ subclass\ of\ BankCard.\ The\ setCreditLimit\ method\ \ sets\ the\ credit\ limit\ for\ the\ credit\ card\ and\ checks\ if\ the\ credit\ will\ be\ granted\ based\ on\ the\ credit\ limit\ and\ balance\ amount.\ \r\n\ It\ also\ has\ a\ cancelCreditCard\ method\ which\ sets\ the\ instance\ variables,gracePeriod,\ creditiLimit,\ interestRate\ to\ 0,.The\ display\ method\ calls\ the\ parent\ class's\ display\ method\ and\ \r\n\ prints\ additional\ credit\ card\ information\ if\ the\ credit\ is\ granted\ or\ else\ prints\ an\ error.\r\n\ \r\n\ @author\ 22067829\ Aman\ Babu\ Shrestha\r\n\ \r\n\ @version\ 2023-01-20\r\n
+comment1.params=
+comment1.target=int\ getCvcNumber()
+comment10.params=
+comment10.target=void\ display()
+comment2.params=
+comment2.target=int\ getCreditLimit()
+comment3.params=
+comment3.target=double\ getInterestRate()
+comment4.params=
+comment4.target=java.lang.String\ getExpirationDate()
+comment5.params=
+comment5.target=int\ getGracePeriod()
+comment6.params=
+comment6.target=boolean\ getIsGranted()
+comment7.params=cardID\ issuerBank\ balanceAmount\ bankAccount\ clientName\ cvcNumber\ interestRate\ expirationDate
+comment7.target=CreditCard(int,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ int,\ double,\ java.lang.String)
+comment8.params=creditLimit\ gracePeriod
+comment8.target=void\ setCreditLimit(int,\ int)
+comment8.text=\ checks\ the\ condition\ and\ grants\ credit\ if\ the\ conditoin\ is\ met.\r\n\ Otherwise\ displays\ a\ suitable\ message\r\n
+comment9.params=
+comment9.target=void\ cancelCreditCard()
+numComments=11
