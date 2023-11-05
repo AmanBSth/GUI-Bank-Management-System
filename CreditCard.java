@@ -65,7 +65,7 @@ public class CreditCard extends BankCard
    public void setCreditLimit(int creditLimit, int gracePeriod) 
    {
        
-       if (this.creditLimit <= (2.5 * getBalanceAmount())){
+       if (creditLimit <= (2.5 * getBalanceAmount())){
            this.isGranted = true;
            this.creditLimit = creditLimit;
            this.gracePeriod = gracePeriod;
@@ -92,11 +92,11 @@ public class CreditCard extends BankCard
    {
        super.display();
        if (this.isGranted==true) {
-           System.out.println("CVC number is" + " " + cvcNumber);
-           System.out.println("Credit Limti is"+ " " + creditLimit);
-           System.out.println("Interest rate is" + " " + interestRate);
-           System.out.println("expiration date is" + " " + expirationDate);
-           System.out.println("Grace period is" + " " + gracePeriod);
+           System.out.println("CVC number is" + " " + this.cvcNumber);
+           System.out.println("Credit Limti is"+ " " + this.creditLimit);
+           System.out.println("Interest rate is" + " " + this.interestRate);
+           System.out.println("expiration date is" + " " + this.expirationDate);
+           System.out.println("Grace period is" + " " + this.gracePeriod);
        } 
        else {       
            System.out.println("Your Credit has not been granted!");
